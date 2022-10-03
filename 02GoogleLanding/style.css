@@ -1,0 +1,24 @@
+/* 
+menu -  https://icon-library.com/images/menu-icon-white/menu-icon-white-23.jpg
+profile - https://cdn-icons-png.flaticon.com/512/3135/3135823.png
+google - https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png
+ mic  - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png
+ search - https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png
+*/
+
+.menu-icon,
+.user-icon {
+  height: 30px;
+}
+
+.user-icon {
+}
+.google-icon {
+  /* border: 1px solid red; */
+  height: 90px;
+  margin-top: 210px;
+}
+
+.icon {
+  height: 20px;
+}
