@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #7844e9, #000);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: white;
+  font-family: 2rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  background: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+form button {
+  background: #7844e9;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #7844e981;
+}
+
+/* style JS Later */
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  /* color:white; */
+  align-items: center;
+}
+
+.todo-list {
+  list-style: none;
+  min-width: 30%;
+}
+
+.todoDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.todoDiv li {
+  flex: 1;
+}
+
+.checkButton,
+.deleteButton {
+  background-color: rgba(240, 57, 57, 0.671);
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.checkButton {
+  background-color: rgba(8, 104, 8, 0.534);
+}
+
+.fa-trash,
+.fa-check-square {
+  pointer-events: none;
+}
+
+.deletedAnimation {
+  display: none;
+}
+.checkAnimation {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+/*  */
